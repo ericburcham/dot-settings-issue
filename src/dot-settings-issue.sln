@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Code", "Code\Code.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{FB8ADE0B-821F-466C-A7C2-30286ED69EC8}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_build", "..\build\_build.csproj", "{FBB07B45-0C6C-4CAC-BDC3-31F19C3B9B7F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -16,6 +18,8 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBB07B45-0C6C-4CAC-BDC3-31F19C3B9B7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBB07B45-0C6C-4CAC-BDC3-31F19C3B9B7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A1E373E-B865-4B25-B4FF-F53B88C36555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8A1E373E-B865-4B25-B4FF-F53B88C36555}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A1E373E-B865-4B25-B4FF-F53B88C36555}.Release|Any CPU.ActiveCfg = Release|Any CPU
