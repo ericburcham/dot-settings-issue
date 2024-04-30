@@ -32,7 +32,10 @@ class Build : NukeBuild
     [PublicAPI]
     AbsolutePath ArtifactsDirectory => RootDirectory / "artifacts";
 
-    /// <summary>Gets a <see cref="Target" /> that cleans build artifacts, code inspection results, source code bin and obj folders, and test bin and object folders.</summary>
+    /// <summary>
+    ///     Gets a <see cref="Target" /> that cleans build artifacts, code inspection results, source code bin and obj
+    ///     folders, and test bin and object folders.
+    /// </summary>
     [PublicAPI]
     Target CleanAll =>
         td => td
@@ -126,7 +129,10 @@ class Build : NukeBuild
                 Log.Information("Build succeeded!");
             });
 
-    /// <summary>Gets a <see cref="Target" /> that fails the build if the user did not run ReSharper code clean up before pushing their changes.</summary>
+    /// <summary>
+    ///     Gets a <see cref="Target" /> that fails the build if the user did not run ReSharper code clean up before
+    ///     pushing their changes.
+    /// </summary>
     [PublicAPI]
     Target EnforceCodeCleanup =>
         td => td
@@ -146,7 +152,7 @@ class Build : NukeBuild
 
     /// <summary>Gets the name of the ReSharper Code Cleanup profile.</summary>
     [PublicAPI]
-    string Profile => "DEFAULT";
+    string Profile => "DEFAULTS";
 
     /// <summary>Gets a <see cref="Target" /> that runs NuGet package restore for .NET solutions.</summary>
     [PublicAPI]
