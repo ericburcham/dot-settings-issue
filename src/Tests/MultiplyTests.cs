@@ -1,3 +1,9 @@
+// -----------------------------------------------------------------------
+// <copyright file="MultiplyTests.cs" company="Enterprise Products Partners L.P.">
+// For copyright details, see the COPYRIGHT file in the root of this repository.
+// </copyright>
+// -----------------------------------------------------------------------
+
 using Code;
 using FluentAssertions;
 
